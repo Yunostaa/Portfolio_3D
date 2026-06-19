@@ -4,14 +4,11 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -23,6 +20,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  laravel,
 } from "../assets";
 
 export const navLinks = [
@@ -32,7 +30,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projets",
   },
   {
     id: "contact",
@@ -72,18 +70,12 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -93,8 +85,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "Three JS",
