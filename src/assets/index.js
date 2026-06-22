@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
+import trello from "./trello.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -19,10 +19,9 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import mmi from "./company/mmi.png";
+import umai from "./company/umai.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -31,7 +30,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,
+  trello,
   mobile,
   web,
   github,
@@ -48,10 +47,8 @@ export {
   reactjs,
   tailwind,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  mmi,
+  umai,
   carrent,
   jobit,
   tripguide,

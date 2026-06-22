@@ -14,7 +14,7 @@
 
   --breakpoint-xs: 450px;
 
-  --background-image-hero-pattern: url('/src/assets/herobg.png');
+  --background-image-hero-pattern: url('./assets/herobg.png');
 }
 
 * {
@@ -57,7 +57,7 @@
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
+  background: #00cea8;
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
@@ -127,7 +127,15 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* canvas- styles */
+.card-img_hover {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.card-img_hover:hover {
+  opacity: 1;
+}
+
 .canvas-loader {
   font-size: 10px;
   width: 1em;
