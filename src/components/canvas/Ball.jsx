@@ -1,10 +1,10 @@
 import { Suspense, useRef } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 import {
+  View,
   Decal,
   Float,
   OrbitControls,
-  Preload,
   useTexture,
 } from "@react-three/drei";
 
@@ -63,18 +63,12 @@ const BallCanvas = ({ icon }) => {
   const phaseY = seededValue(icon, 4) * Math.PI * 2;
 
   return (
-    <Canvas
-      frameloop='always'
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-    >
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
+    <View style={{ width: "100%", height: "100%" }}>
+      <Suspense fallback={null}>
+        <OrbitControls enableZoom={false} enablePan={false} />
         <Ball imgUrl={icon} speedX={speedX} speedY={speedY} phaseX={phaseX} phaseY={phaseY} />
       </Suspense>
-
-      <Preload all />
-    </Canvas>
+    </View>
   );
 };
 

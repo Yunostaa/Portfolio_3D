@@ -17,13 +17,15 @@
   --background-image-hero-pattern: url('./assets/herobg.png');
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
-  color-scheme: dark;
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
 }
 
 .hash-span {
@@ -43,6 +45,20 @@
     to right,
     #434343,
     #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dark-blue-gradient {
+  background: #0a0a2e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1a1a4e,
+    #0a0a2e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1a1a4e,
+    #0a0a2e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import trello from "./trello.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -18,6 +18,9 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
+import symfony from "./tech/symfony.png";
+import twig from "./tech/twig.png";
+import unity from "./tech/unity.png";
 
 import mmi from "./company/mmi.png";
 import umai from "./company/umai.png";
@@ -28,12 +31,12 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
   backend,
   trello,
   mobile,
   web,
   github,
+  linkedin,
   menu,
   close,
   css,
@@ -43,6 +46,9 @@ export {
   html,
   javascript,
   laravel,
+  symfony,
+  twig,
+  unity,
   nodejs,
   reactjs,
   tailwind,

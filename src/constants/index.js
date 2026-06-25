@@ -8,6 +8,9 @@ import {
   css,
   reactjs,
   tailwind,
+  symfony,
+  twig,
+  unity,
   nodejs,
   git,
   figma,
@@ -69,15 +72,17 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Twig",
+    icon: twig,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
-  
   {
     name: "React JS",
     icon: reactjs,
   },
-  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -87,23 +92,31 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Symfony",
+    icon: symfony,
+  },
+  {
     name: "Laravel",
     icon: laravel,
+  },
+  {
+    name: "Unity",
+    icon: unity,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
@@ -114,7 +127,7 @@ const experiences = [
     company_name: "MMI",
     icon: mmi,
     iconBg: "#383E56",
-    date: "Septembre 2023 - ",
+    date: "Septembre 2023 - Juin 2024",
     points: [
       "Apprentissage des fondamentaux du développement web et des technologies associées.",
       "Participation à des projets collaboratifs pour développer des compétences pratiques.",
@@ -131,6 +144,18 @@ const experiences = [
       "Préparation et cuisson de ramen authentiques selon les recettes maison.",
       "Collaboration avec l'équipe de cuisine pour assurer la qualité et la cohérence des plats.",
       "Gestion des stocks d'ingrédients et respect des normes d'hygiène alimentaire.",
+    ],
+  },
+  {
+    title: "1ère Année de BUT Métiers du Multimédia et de l'Internet",
+    company_name: "MMI",
+    icon: mmi,
+    iconBg: "#383E56",
+    date: "Septembre 2023 - Juin 2024",
+    points: [
+      "Apprentissage des fondamentaux du développement web et des technologies associées.",
+      "Participation à des projets collaboratifs pour développer des compétences pratiques.",
+      "Mise en œuvre de conceptions réactives et garantie de la compatibilité entre navigateurs.",
     ],
   },
 ];
@@ -155,7 +180,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Yunostaa",
   },
   {
     name: "Job IT",

@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
+import cvFile from "../assets/CV_Theo_Cozic.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,7 +43,6 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Théo &nbsp;
             <span className='sm:block hidden'> | Web Developper</span>
@@ -62,6 +62,11 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <a href={cvFile} download="CV_Theo_Cozic.pdf">
+          <div className='green-pink-gradient p-px rounded-lg m-3'>
+            <button className='bg-primary text-white px-6 py-3 rounded-lg font-medium hover:opacity-80 hover:cursor-pointer transition-opacity'>Télécharger mon <span className="text-[#915EFF]">CV</span></button>
+          </div>
+        </a>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
