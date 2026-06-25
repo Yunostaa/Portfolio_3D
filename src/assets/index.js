@@ -25,10 +25,18 @@ import unity from "./tech/unity.png";
 import mmi from "./company/mmi.png";
 import umai from "./company/umai.png";
 
+import dimobile_1 from "./dimobile_1.png";
+import dimobile_2 from "./dimobile_2.png";
+import dimobile_3 from "./dimobile_3.png";
+import dira from "./dira.png";
+import dirv from "./dirv.png";
+import sae501_1 from "./sae501_1.png";
+import sae501_2 from "./sae501_2.png";
+import UC_1 from "./UC_1.png";
+import UC_2 from "./UC_2.png";
+import UC_3 from "./UC_3.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
   backend,
@@ -55,7 +63,14 @@ export {
   threejs,
   mmi,
   umai,
-  carrent,
-  jobit,
-  tripguide,
+  dimobile_1,
+  dimobile_2,
+  dimobile_3,
+  dira,
+  dirv,
+  sae501_1,
+  sae501_2,
+  UC_1,
+  UC_2,
+  UC_3,
 };

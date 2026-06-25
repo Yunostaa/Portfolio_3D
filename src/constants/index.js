@@ -12,14 +12,21 @@ import {
   twig,
   unity,
   nodejs,
+  dimobile_1,
+  dimobile_2,
+  dimobile_3,
+  dira,
+  dirv,
+  sae501_1,
+  sae501_2,
+  UC_1,
+  UC_2,
+  UC_3,
   git,
   figma,
   docker,
   mmi,
   umai,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   laravel,
 } from "../assets";
@@ -162,67 +169,103 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Escape Room en Réalité Virtuelle",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Scène de réalité virtuelle interactive développée avec Unity, offrant une experience d'escape room immersive.",
     tags: [
       {
-        name: "react",
+        name: "unity",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "c#",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    images: [
+      dirv,
+    ],
     source_code_link: "https://github.com/Yunostaa",
   },
   {
-    name: "Job IT",
+    name: "Application mobile de cinéma",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Aplication mobile de festival de cinéma, permettant aux utilisateurs de consulter les films, les horaires et les informations sur les réalisateurs.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    images: [dimobile_1, dimobile_2, dimobile_3],
+    source_code_link: "https://github.com/Yunostaa",
   },
   {
-    name: "Trip Guide",
+    name: "Site de gestion d'opérations d'usine",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Site web de gestion d'opérations d'usine de chocolat, permettant aux utilisateurs de suivre les opérations, les stocks et les performances de production.",
     tags: [
       {
-        name: "nextjs",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    images: [UC_1, UC_2, UC_3],
+    source_code_link: "https://github.com/Yunostaa",
+  },
+  {
+    name: "Initiation à la Réalité Augmentée",
+    description:
+      "Scène de réalité augmentée interactive développée avec Unity.",
+    tags: [
+      {
+        name: "unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "c#",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [
+      dira,
+    ],
+    source_code_link: "https://github.com/Yunostaa",
+  },
+  {
+    name: "Jeux du Papillons",
+    description:
+      "Jeu interactif développé avec Unity, où les joueurs incarnent un papillon.",
+    tags: [
+      {
+        name: "unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "c#",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [
+      sae501_1, sae501_2,
+    ],
+    source_code_link: "https://github.com/Yunostaa",
   },
 ];
 

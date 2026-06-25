@@ -1,16 +1,69 @@
-# React + Vite
+# Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prérequis
 
-Currently, two official plugins are available:
+* Node.js 20+ recommandé
+* npm (installé avec Node.js)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Vérifier les versions :
 
-## React Compiler
+```bash
+node -v
+npm -v
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Cloner le projet
 
-## Expanding the ESLint configuration
+```bash
+git clone <repository-url>
+cd portfolio-3d
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installer les dépendances
+
+```bash
+npm install
+```
+
+## Lancer le serveur de développement
+
+```bash
+npm run dev
+```
+
+L'application sera accessible à l'adresse indiquée dans le terminal, généralement :
+
+```txt
+http://localhost:5173
+```
+
+## Construire le projet pour la production
+
+```bash
+npm run build
+```
+
+Les fichiers optimisés seront générés dans le dossier :
+
+```txt
+dist/
+```
+
+## Prévisualiser le build de production
+
+```bash
+npm run preview
+```
+
+## Technologies utilisées
+
+* React 19
+* Vite 8
+* Tailwind CSS 4
+* Three.js
+* React Three Fiber
+* React Three Drei
+* Framer Motion
+* React Parallax Tilt
+* React Router DOM
+* EmailJS
