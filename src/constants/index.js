@@ -27,6 +27,7 @@ import {
   docker,
   mmi,
   umai,
+  icube,
   threejs,
   laravel,
 } from "../assets";
@@ -133,7 +134,7 @@ const experiences = [
     title: "1ère Année de BUT Métiers du Multimédia et de l'Internet",
     company_name: "MMI",
     icon: mmi,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Septembre 2023 - Juin 2024",
     points: [
       "Apprentissage des fondamentaux du développement web et des technologies associées.",
@@ -157,12 +158,32 @@ const experiences = [
     title: "1ère Année de BUT Métiers du Multimédia et de l'Internet",
     company_name: "MMI",
     icon: mmi,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Septembre 2023 - Juin 2024",
     points: [
       "Apprentissage des fondamentaux du développement web et des technologies associées.",
       "Participation à des projets collaboratifs pour développer des compétences pratiques.",
       "Mise en œuvre de conceptions réactives et garantie de la compatibilité entre navigateurs.",
+    ],
+  },
+  {
+    title: "2ème Année de BUT Métiers du Multimédia et de l'Internet",
+    company_name: "MMI",
+    icon: mmi,
+    iconBg: "#E6DEDD",
+    date: "Septembre 2024 - Juin 2025",
+    points: [
+      "Approfondissement des compétences en développement web et mobile, avec un accent sur les frameworks modernes.",
+    ],
+  },
+  {
+    title: "Stage au Laboratoire ICube de l'Université de Strasbourg",
+    company_name: "ICube",
+    icon: icube,
+    iconBg: "#E6DEDD",
+    date: "Juin 2024 - Juillet 2025",
+    points: [
+      "Participation à un projet de recherche sur les manières de communication entre individus.",
     ],
   },
 ];

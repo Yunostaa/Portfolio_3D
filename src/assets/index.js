@@ -24,6 +24,7 @@ import unity from "./tech/unity.png";
 
 import mmi from "./company/mmi.png";
 import umai from "./company/umai.png";
+import icube from "./company/icube.png";
 
 import dimobile_1 from "./dimobile_1.png";
 import dimobile_2 from "./dimobile_2.png";
@@ -63,6 +64,7 @@ export {
   threejs,
   mmi,
   umai,
+  icube,
   dimobile_1,
   dimobile_2,
   dimobile_3,
