@@ -171,7 +171,7 @@ const projects = [
   {
     name: "Escape Room en Réalité Virtuelle",
     description:
-      "Scène de réalité virtuelle interactive développée avec Unity, offrant une experience d'escape room immersive.",
+      "Scène de réalité virtuelle interactive développée avec Unity, offrant une expérience d'escape room immersive.",
     tags: [
       {
         name: "unity",
@@ -190,7 +190,7 @@ const projects = [
   {
     name: "Application mobile de cinéma",
     description:
-      "Aplication mobile de festival de cinéma, permettant aux utilisateurs de consulter les films, les horaires et les informations sur les réalisateurs.",
+      "Application mobile de festival de cinéma, permettant aux utilisateurs de consulter les films, les horaires et les informations sur les réalisateurs.",
     tags: [
       {
         name: "flutter",
@@ -201,9 +201,9 @@ const projects = [
     source_code_link: "https://github.com/Yunostaa",
   },
   {
-    name: "Site de gestion d'opérations d'usine",
+    name: "Site de gestion d'opération d'usine",
     description:
-      "Site web de gestion d'opérations d'usine de chocolat, permettant aux utilisateurs de suivre les opérations, les stocks et les performances de production.",
+      "Site web de gestion d'opération d'usine de chocolat, permettant aux utilisateurs de suivre les opérations, les stocks et les performances de production.",
     tags: [
       {
         name: "laravel",
@@ -249,7 +249,7 @@ const projects = [
     source_code_link: "https://github.com/Yunostaa",
   },
   {
-    name: "Jeux du Papillons",
+    name: "Jeu du Papillons",
     description:
       "Jeu interactif développé avec Unity, où les joueurs incarnent un papillon.",
     tags: [
